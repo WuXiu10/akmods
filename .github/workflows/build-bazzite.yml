@@ -1,15 +1,5 @@
 name: bazzite akmods
 on:
-  merge_group:
-  pull_request:
-    branches:
-      - main
-    paths-ignore:
-      - '**.md'
-  schedule:
-    - cron: '5 0 * * *'  # 0005 UTC everyday
-  repository_dispatch:
-    types: [bazzite-kernel-build]
   workflow_dispatch:
     inputs:
       release_tag:

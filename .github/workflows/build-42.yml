@@ -1,11 +1,5 @@
 name: ublue akmods 42
 on:
-  merge_group:
-  pull_request:
-    branches:
-      - main
-    paths-ignore:
-      - '**.md'
   workflow_dispatch:
 
 jobs:

@@ -1,13 +1,5 @@
 name: ublue akmods 41
 on:
-  merge_group:
-  pull_request:
-    branches:
-      - main
-    paths-ignore:
-      - '**.md'
-  schedule:
-    - cron: '25 0 * * *'  # 0025 UTC everyday (20 minutes after 42)
   workflow_dispatch:
 
 jobs:
